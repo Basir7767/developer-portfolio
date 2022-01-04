@@ -10,7 +10,7 @@ h1{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
        }
        .half-width{
            width: 50%;
@@ -36,4 +36,10 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    box-shadow: 10px 1opx 40px gray;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
