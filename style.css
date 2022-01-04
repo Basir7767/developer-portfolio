@@ -3,7 +3,10 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
 }
 .orange-color{
     color: orange;
@@ -37,9 +40,28 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .experience-item{
-    box-shadow: 10px 1opx 40px gray;
     width: 40%;
-    margin-right: 5%;
     margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+#Chairman-ex{
+    border-left: 7px solid;
+    border-image: linear-gradiant(blue,cyan);
+    border-image-slice: 1;
+   
+}
+#Mp-ex{
+    border-left: 7px solid;
+ border-image: linear-gradiant(blue,cyan);
+ border-image-slice: 1;
+
 }
